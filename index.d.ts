@@ -124,4 +124,5 @@ declare class MulterSharp {
 
 declare function multerSharp(options: MulterOptions): MulterSharp;
 
+//@ts-ignore
 export = multerSharp;
