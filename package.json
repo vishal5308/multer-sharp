@@ -1,5 +1,12 @@
 {
-  "name": "multer-sharp",
+  "name": "@github_user/multer-sharp",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/vishal5308/multer-sharp.git"
+  },
+  "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+  },
   "version": "0.6.2",
   "description": "Streaming multer storage engine permit to resize and upload to Google Cloud Storage.",
   "main": "index.js",
@@ -12,10 +19,6 @@
     "release:github": "git push --no-verify --follow-tags origin master",
     "release:npm": "npm publish",
     "dry": "standard-version --dry-run"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ikhsanalatsary/multer-sharp.git"
   },
   "bugs": {
     "url": "https://github.com/ikhsanalatsary/multer-sharp/issues"
